@@ -3,9 +3,7 @@ import Carousel from "./Carousel";
 
 const useStyles = makeStyles((theme) => ({
   banner: {
-    // backgroundImage: "url(./banner2.jpg)",
-    // backgroundPosition:"bottom",
-    // backgroundSize: "100%"
+ 
     background: "#070707" ,
     borderBottom:"1px solid #4c4c4c",
     
@@ -39,8 +37,8 @@ function Banner() {
   return (
     <div className={classes.banner}>
       <Container className={classes.bannerContent} maxWidth="xxl">
-        <div className={classes.tagline}>
-          <Typography
+        <div id="remove" className={classes.tagline}>
+          <Typography className="remove"
             variant="h3"
             style={{
               fontWeight: "bold",
@@ -50,7 +48,7 @@ function Banner() {
           >
             BeCoin<span style={{color:'gold'}}>:</span> Search Crypto<span style={{color:'gold'}}>.</span>
           </Typography>
-          <Typography
+          <Typography className="remove"
             variant="subtitle2"
             style={{
               color: "darkgrey",

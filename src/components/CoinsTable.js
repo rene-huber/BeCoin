@@ -72,7 +72,6 @@ export default function CoinsTable() {
 
   useEffect(() => {
     fetchCoins();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currency]);
 
   const handleSearch = () => {
@@ -86,7 +85,7 @@ export default function CoinsTable() {
   return (
     <ThemeProvider theme={darkTheme}>
       <Container style={{ textAlign: "center" , padding:"20px"}}>
-        <Typography
+        <Typography className="remove"
           variant="h4"
           style={{ margin: 18, fontFamily: "Montserrat" }}
         >
