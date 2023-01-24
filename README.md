@@ -2,7 +2,7 @@
 
 
 
-[![crypto](http://51.195.43.100/screen-bcoin.png)]
+[![crypto](https://crypto.rene-huber.eu/bcoin.jpg)]
 
 ## Demo:  https://crypto.rene-huber.eu/
 
